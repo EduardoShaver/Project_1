@@ -1,0 +1,39 @@
+href {
+    color: blue;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+}
+.portpic {
+    margin: 20px;
+    border: 2px solid black;
+}
+.link {
+    margin: 5px;
+    background-color: blue;
+}
+h4 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 1px black;
+}
+.msg, .name {
+    margin: 20px;
+    text-align: left;
+    color: blue;
+}
+.submit {
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+a {
+    border: 2px solid blue;
+}

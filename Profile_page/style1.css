@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.top {
+    background-color: #333333;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navlinks {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navtitle {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    font-size: 15px;
+    box-shadow: 5px 5px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col2 {
+    flex: 2;
+}
+
+
+
+.usercard, .card {
+    width: 500px;
+    background-color: white;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.cardheader {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.cardbody {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cardbody h1, 
+.cardbody h2,
+.cardbody h3,
+.car-body p {
+    margin: 20px 0px;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    background-color: white;
+    height: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icons {
+    height: 20px;
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.avatars {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.userline {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.first, .last {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.dates {
+    font-size: 20px;
+    color: rgb(124, 117, 117);
+}
+
+
+
+.connections {
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
